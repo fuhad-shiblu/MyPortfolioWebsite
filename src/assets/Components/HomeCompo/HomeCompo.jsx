@@ -1,0 +1,40 @@
+import './HomeCompo.css'
+import myProfile from '../../../../public/images/profile.jpg'
+import { Link } from 'react-router-dom'
+import { FaDownload } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import Footer from '../Footer';
+
+
+const HomeCompo = () => {
+  return (
+    <>
+      <div className="container m-auto md:flex-row mt-[50px] md:mt-[100px] md:flex md:items-center md:justify-center gap-[100px] flex flex-col items-center">
+          <img className='w-[350px] rotate-[-10deg] hover:rotate-0 transition-all border-[5px] border-solid border-[rgba(3,176,210,0.5)] hover:border-[#03AED2] rounded-3xl' src={myProfile} alt="Profile" />
+          <div className="flex flex-col gap-[50px]">
+              <div className="flex text-center md:text-left flex-col gap-[25px] items-center md:items-start">
+                  <h1 className='text-[50px] md:text-[60px] text-white font-bold'>Hello, I'm <span className='block font-semibold text-[30px] md:text-[50px]'>Fuhad Hasan Shiblu</span></h1>
+                  <p className='text-[30px] md:text-[50px] text-white font-bold text-[#5AB2FF]'>Front-End Web Developer</p>
+                  <p className='w-[500px] text-white font-light text-xl'>I build a UI/UX friendly web applications and run with 100% responsive in devices</p>
+              </div>
+              <div className="flex flex-col gap-10 items-center md:flex-row">
+                  <Link className='text-xl text-white font-bold bg-[#435585] px-6 py-3 rounded-3xl flex items-center gap-5 border-2 border-solid border-[#435585] hover:bg-transparent transition-all active:scale-[1.1]' to={'#'}><FaDownload/>Download Resume</Link>
+                  <div className="flex gap-3">
+                      <Link className='w-10 h-10 flex justify-center items-center text-xl text-white hover:text-[#6EACDA] border-2 rounded-full border-solid border-[#430A5D] transition-all hover:bg-[#430A5D]' to={'#'}><FaFacebookF/></Link>
+                      <Link className='w-10 h-10 flex justify-center items-center text-xl text-white hover:text-[#6EACDA] border-2 rounded-full border-solid border-[#430A5D] transition-all hover:bg-[#430A5D]' to={'#'}><FaInstagram/></Link>
+                      <Link className='w-10 h-10 flex justify-center items-center text-xl text-white hover:text-[#6EACDA] border-2 rounded-full border-solid border-[#430A5D] transition-all hover:bg-[#430A5D]' to={'#'}><FaYoutube/></Link>
+                      <Link className='w-10 h-10 flex justify-center items-center text-xl text-white hover:text-[#6EACDA] border-2 rounded-full border-solid border-[#430A5D] transition-all hover:bg-[#430A5D]' to={'#'}><FaLinkedinIn/></Link>
+                      <Link className='w-10 h-10 flex justify-center items-center text-xl text-white hover:text-[#6EACDA] border-2 rounded-full border-solid border-[#430A5D] transition-all hover:bg-[#430A5D]' to={'#'}><FaGithub/></Link>
+                  </div>
+              </div>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default HomeCompo

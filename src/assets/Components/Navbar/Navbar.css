@@ -1,0 +1,13 @@
+ul li a{
+    @apply relative transition-all;
+}
+ul li a:hover::after{
+    content: '';
+    @apply w-10 h-1 bg-white absolute bottom-0 left-1/2 translate-x-[-50%]
+}
+.fuhadShiblu_hireMe{
+    background: linear-gradient(100deg, rgba(12,26,112,1) 0%, rgba(76,201,254,1) 100%);
+}
+.fuhadShiblu_hireMe:hover{
+    background: linear-gradient(100deg, rgba(76,201,254,1) 0%, rgba(12,26,112,1) 100%);
+}

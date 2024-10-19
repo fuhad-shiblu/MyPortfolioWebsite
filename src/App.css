@@ -1,0 +1,17 @@
+*{
+  @apply m-0 p-0 outline-none scroll-smooth font-josefinsans;
+}
+body{
+  @apply w-full h-screen relative;
+  background: linear-gradient(100deg, rgba(20,1,29,1) 0%, rgba(1,6,38,1) 100%);
+}
+body::-webkit-scrollbar{
+  width: 5px;
+}
+body::-webkit-scrollbar-track{
+  background: #ffffff;
+}
+body::-webkit-scrollbar-thumb{
+  background: #57025a;
+  border-radius: 10px;
+}
