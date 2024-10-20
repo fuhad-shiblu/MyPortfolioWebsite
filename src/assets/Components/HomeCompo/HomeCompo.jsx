@@ -13,6 +13,7 @@ import Footer from '../Footer';
 const HomeCompo = () => {
   return (
     <>
+    <section className='flex flex-col gap-[100px] items-center'>
       <div className="container m-auto md:flex-row mt-[50px] md:mt-[100px] md:flex md:items-center md:justify-center gap-[100px] flex flex-col items-center">
           <img className='w-[350px] rotate-[-10deg] hover:rotate-0 transition-all border-[5px] border-solid border-[rgba(3,176,210,0.5)] hover:border-[#03AED2] rounded-3xl' src={myProfile} alt="Profile" />
           <div className="flex flex-col gap-[50px]">
@@ -33,6 +34,23 @@ const HomeCompo = () => {
               </div>
         </div>
       </div>
+      <div className="w-full p-5 bg-[rgba(11,25,44,0.5)]">
+        <div className="container mx-auto flex flex-col justify-center gap-5 items-center md:flex-row md:justify-between">
+          <div className="flex gap-5 items-center">
+            <h2 className='text-[100px] text-white'>3+</h2>
+            <p className='w-[100px] text-xl text-white'>Years of Experience</p>
+          </div>
+          <div className="flex gap-5 items-center">
+            <h2 className='text-[100px] text-white'>0+</h2>
+            <p className='w-[100px] text-xl text-white'>Project Completed</p>
+          </div>
+          <div className="flex gap-5 items-center">
+            <h2 className='text-[100px] text-white'>0+</h2>
+            <p className='w-[100px] text-xl text-white'>Happy Clients</p>
+          </div>
+        </div>
+      </div>
+    </section>
     </>
   )
 }
