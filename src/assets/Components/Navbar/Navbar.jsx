@@ -23,7 +23,7 @@ const Navbar = () => {
         </ul>
     </div>
       <div className="container m-auto">
-        <div className="md:flex md:mt-5 md:justify-between md:items-center sm:flex sm:justify-center">
+        <div className="md:flex mt-5 md:justify-between md:items-center flex justify-center">
             <Link className='text-xl text-white font-bold hover:text-[rgba(255,255,255,0.5)] transition-all' to={'/'}>Fuhad Hasan Shiblu</Link>
             <ul className='flex gap-5 items-center hidden md:inline-flex'>
                 <li><NavLink to={'/'} className={({ isActive }) => isActive ? "text-sm text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl" : "text-sm text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all"}>home</NavLink></li>
