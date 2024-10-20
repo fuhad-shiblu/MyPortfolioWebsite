@@ -23,8 +23,9 @@ const Navbar = () => {
         </ul>
     </div>
       <div className="container m-auto">
-        <div className="md:flex mt-5 md:justify-between md:items-center flex justify-center">
+        <div className="md:flex mt-5 md:justify-between md:items-center flex justify-between items-center">
             <Link className='text-xl text-white font-bold hover:text-[rgba(255,255,255,0.5)] transition-all' to={'/'}>Fuhad Hasan Shiblu</Link>
+            <Link className='fuhadShiblu_hireMe text-xl text-white uppercase px-5 py-3 font-bold rounded-3xl active:scale-[1.1] transition-all hover:opacity-[0.5] hidden md:block' to={'/contact'}>hire me</Link>
             <ul className='flex gap-5 items-center hidden md:inline-flex'>
                 <li><NavLink to={'/'} className={({ isActive }) => isActive ? "text-sm text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl" : "text-sm text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all"}>home</NavLink></li>
                 <li><NavLink to={'/about'} className={({ isActive }) => isActive ? "text-sm text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl" : "text-sm text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all"}>about</NavLink></li>
@@ -34,7 +35,7 @@ const Navbar = () => {
                 <li><NavLink to={'/blogs'} className={({ isActive }) => isActive ? "text-sm text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl" : "text-sm text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all"}>blog</NavLink></li>
                 <li><NavLink to={'/contact'} className={({ isActive }) => isActive ? "text-sm text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl" : "text-sm text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all"}>contact</NavLink></li>
             </ul>
-            <Link className='fuhadShiblu_hireMe text-xl text-white uppercase px-5 py-3 font-bold rounded-3xl active:scale-[1.1] transition-all hover:opacity-[0.5] hidden md:block' to={'/contact'}>hire me</Link>
+            <Link className='fuhadShiblu_hireMe text-xl text-white uppercase px-5 py-3 font-bold rounded-3xl active:scale-[1.1] transition-all hover:opacity-[0.5] md:hidden' to={'/contact'}>hire me</Link>
         </div>
       </div>
     </>
