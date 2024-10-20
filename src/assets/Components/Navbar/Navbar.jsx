@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
-import { GrProjects } from "react-icons/gr";
+import { FaHome } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import { FaServicestack } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
@@ -16,7 +16,7 @@ const Navbar = () => {
             <li><NavLink to={'/about'} className={({ isActive }) => isActive ? "text-[10px] text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl flex flex-col items-center gap-2" : "text-[10px] text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all flex flex-col items-center gap-2"}><FaUser className='text-xl'/>about</NavLink></li>
             <li><NavLink to={'/services'} className={({ isActive }) => isActive ? "text-[10px] text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl flex flex-col items-center gap-2" : "text-[10px] text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all flex flex-col items-center gap-2"}><FaServicestack className='text-xl'/>services</NavLink></li>
             <li><NavLink to={'/skills'} className={({ isActive }) => isActive ? "text-[10px] text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl flex flex-col items-center gap-2" : "text-[10px] text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all flex flex-col items-center gap-2"}><GiSkills className='text-xl'/>skills</NavLink></li>
-            <li><NavLink to={'/'} className={({ isActive }) => isActive ? "text-[10px] text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl flex flex-col items-center gap-2" : "text-[10px] text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all flex flex-col items-center gap-2"}><GrProjects className='text-xl'/>home</NavLink></li>
+            <li><NavLink to={'/'} className={({ isActive }) => isActive ? "text-[10px] text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl flex flex-col items-center gap-2" : "text-[10px] text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all flex flex-col items-center gap-2"}><FaHome className='text-xl'/>home</NavLink></li>
             <li><NavLink to={'/portfolios'} className={({ isActive }) => isActive ? "text-[10px] text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl flex flex-col items-center gap-2" : "text-[10px] text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all flex flex-col items-center gap-2"}><FaProjectDiagram className='text-xl'/>portfolios</NavLink></li>
             <li><NavLink to={'/blogs'} className={({ isActive }) => isActive ? "text-[10px] text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl flex flex-col items-center gap-2" : "text-[10px] text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all flex flex-col items-center gap-2"}><FaBlog className='text-xl'/>blog</NavLink></li>
             <li><NavLink to={'/contact'} className={({ isActive }) => isActive ? "text-[10px] text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl flex flex-col items-center gap-2" : "text-[10px] text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all flex flex-col items-center gap-2"}><FaHeadphones className='text-xl'/>contact</NavLink></li>
