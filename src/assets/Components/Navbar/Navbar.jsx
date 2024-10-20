@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
     <div className="w-full px-1 py-2 bg-[#4477CE] fixed bottom-0 z-10 block md:hidden">
-        <ul className='flex gap-5 items-center justify-center px-1'>
+        <ul className='flex gap-3 items-center justify-center px-1'>
             <li><NavLink to={'/about'} className={({ isActive }) => isActive ? "text-[10px] text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl flex flex-col items-center gap-2" : "text-[10px] text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all flex flex-col items-center gap-2"}><FaUser className='text-xl'/>about</NavLink></li>
             <li><NavLink to={'/services'} className={({ isActive }) => isActive ? "text-[10px] text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl flex flex-col items-center gap-2" : "text-[10px] text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all flex flex-col items-center gap-2"}><FaServicestack className='text-xl'/>services</NavLink></li>
             <li><NavLink to={'/skills'} className={({ isActive }) => isActive ? "text-[10px] text-white font-normal uppercase p-2 bg-[#0E2954] rounded-xl flex flex-col items-center gap-2" : "text-[10px] text-white font-normal uppercase p-2 hover:bg-[#0E2954] rounded-xl transition-all flex flex-col items-center gap-2"}><GiSkills className='text-xl'/>skills</NavLink></li>
