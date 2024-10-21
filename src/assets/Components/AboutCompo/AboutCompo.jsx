@@ -16,9 +16,9 @@ const AboutCompo = () => {
       <section className='fuhadShiblu_aboutBanner w-full h-[250px] mt-5 flex flex-col justify-center items-center'>
         <h2 className='md:text-[100px] text-[50px] text-white uppercase font-bold'>about</h2>
         <ul className='flex gap-5 items-center'>
-            <Link className='md:text-xl text-sm uppercase font-bold text-[#180161]' to={'/'}>home</Link>
-            <BsArrowRight className='text-xl text-[#180161]'/>
-            <Link className='md:text-xl text-sm uppercase font-bold text-[#180161]' to={'/about'}>about</Link>
+            <Link className='md:text-3xl text-xl uppercase font-bold text-[#180161]' to={'/'}>home</Link>
+            <BsArrowRight className='text-3xl text-[#180161]'/>
+            <Link className='md:text-3xl text-xl uppercase font-bold text-[#180161]' to={'/about'}>about</Link>
         </ul>
       </section>
       <div className="container mx-auto">
@@ -93,31 +93,31 @@ const AboutCompo = () => {
           </div>
           <div className="w-[250px] h-[250px] flex justify-center items-center bg-[#32012F] rounded-xl border-2 border-solid border-[#32012F] hover:border-[#FF76CE] transition-all hover:scale-[1.1] opacity-[0.5] hover:opacity-[1]">
             <div className="flex flex-col gap-5 items-center">
-              <img className='w-[100px] h-[100px]' src={css} alt="HTML" />
+              <img className='w-[100px] h-[100px]' src={css} alt="CSS" />
               <p className='text-xl text-white font-semibold uppercase'>css</p>
             </div>
           </div>
           <div className="w-[250px] h-[250px] flex justify-center items-center bg-[#32012F] rounded-xl border-2 border-solid border-[#32012F] hover:border-[#FF76CE] transition-all hover:scale-[1.1] opacity-[0.5] hover:opacity-[1]">
             <div className="flex flex-col gap-5 items-center">
-              <img className='w-[100px] h-[100px]' src={js} alt="HTML" />
+              <img className='w-[100px] h-[100px]' src={js} alt="JavaScript" />
               <p className='text-xl text-white font-semibold uppercase'>javascript</p>
             </div>
           </div>
           <div className="w-[250px] h-[250px] flex justify-center items-center bg-[#32012F] rounded-xl border-2 border-solid border-[#32012F] hover:border-[#FF76CE] transition-all hover:scale-[1.1] opacity-[0.5] hover:opacity-[1]">
             <div className="flex flex-col gap-5 items-center">
-              <img className='w-[100px] h-[100px]' src={react} alt="HTML" />
+              <img className='w-[100px] h-[100px]' src={react} alt="React" />
               <p className='text-xl text-white font-semibold uppercase'>react</p>
             </div>
           </div>
           <div className="w-[250px] h-[250px] flex justify-center items-center bg-[#32012F] rounded-xl border-2 border-solid border-[#32012F] hover:border-[#FF76CE] transition-all hover:scale-[1.1] opacity-[0.5] hover:opacity-[1]">
             <div className="flex flex-col gap-5 items-center">
-              <img className='w-[100px] h-[100px]' src={bootstrap} alt="HTML" />
+              <img className='w-[100px] h-[100px]' src={bootstrap} alt="Bootstrap" />
               <p className='text-xl text-white font-semibold uppercase'>bootstrap</p>
             </div>
           </div>
           <div className="w-[250px] h-[250px] flex justify-center items-center bg-[#32012F] rounded-xl border-2 border-solid border-[#32012F] hover:border-[#FF76CE] transition-all hover:scale-[1.1] opacity-[0.5] hover:opacity-[1]">
             <div className="flex flex-col gap-5 items-center">
-              <img className='w-[100px] h-[100px]' src={tailwind} alt="HTML" />
+              <img className='w-[100px] h-[100px]' src={tailwind} alt="Tailwind" />
               <p className='text-xl text-white font-semibold uppercase'>tailwind</p>
             </div>
           </div>

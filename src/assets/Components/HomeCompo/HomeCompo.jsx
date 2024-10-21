@@ -7,7 +7,6 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import Footer from '../Footer';
 
 
 const HomeCompo = () => {
@@ -19,7 +18,7 @@ const HomeCompo = () => {
           <div className="flex flex-col gap-[50px]">
               <div className="flex text-center md:text-left flex-col gap-[25px] items-center md:items-start">
                   <h1 className='text-[50px] md:text-[60px] text-white font-bold'>Hello, I'm <span className='block font-semibold text-[30px] md:text-[50px]'>Fuhad Hasan Shiblu</span></h1>
-                  <p className='text-[30px] md:text-[50px] text-white font-bold text-[#5AB2FF]'>Front-End Web Developer</p>
+                  <p className='text-[30px] md:text-[50px] font-bold text-[#5AB2FF]'>Front-End Web Developer</p>
                   <p className='w-[500px] text-white font-light text-xl'>I build a UI/UX friendly web applications and run with 100% responsive in devices</p>
               </div>
               <div className="flex flex-col gap-10 items-center md:flex-row">

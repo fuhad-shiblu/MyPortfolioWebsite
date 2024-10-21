@@ -1,8 +1,9 @@
+import PortfolioCompo from "../Components/PortfolioCompo/PortfolioCompo"
 
 const Portfolios = () => {
   return (
     <>
-      
+      <PortfolioCompo/>
     </>
   )
 }
