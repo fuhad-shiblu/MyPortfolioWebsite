@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 import './ServicesCompo.css'
 import { BsArrowRight } from 'react-icons/bs'
 import { FaCode } from "react-icons/fa";
+import { MdFormatColorFill } from "react-icons/md";
+import { FaTools } from "react-icons/fa";
 
 const ServicesCompo = () => {
   return (
@@ -19,7 +21,7 @@ const ServicesCompo = () => {
         <p className='fuhadShiblu_Anim text-center text-white mb-10 text-sm md:text-xl font-bold'>Focused and offered services</p>
         <div className="flex justify-center items-center gap-10 flex-wrap">
             <div className="fuhadShiblu_Anim p-10 flex flex-col gap-5 justify-center border-2 border-solid border-[#091057] transition-all hover:scale-[1.1] hover:bg-[#091057] rounded-3xl overflow-hidden">
-                <FaCode className='text-white text-2xl md:text-3xl'/>
+                <MdFormatColorFill className='text-white text-2xl md:text-3xl'/>
                 <p className='text-white text-2xl md:text-3xl font-bold'>Web Design</p>
                 <p className='text-sm md:text-lg text-white font-light text-justify'>Our web design services combine creativity and functionality to craft visually stunning and user-centric websites. We focus on responsive design, ensuring seamless experiences across devices, while emphasizing brand identity and engagement. Let us transform your ideas into captivating online experiences that leave a lasting impression on your audience.</p>
             </div>
@@ -29,7 +31,7 @@ const ServicesCompo = () => {
                 <p className='text-sm md:text-lg text-white font-light text-justify'>We offer expert web development services using ReactJS, delivering custom, high-performance applications tailored to your needs. Our focus on component-based architecture ensures scalability and fast rendering, while our comprehensive support covers everything from design to deployment. Elevate your online presence with our innovative and user-friendly solutions.</p>
             </div>
             <div className="fuhadShiblu_Anim p-10 flex flex-col gap-5 justify-center border-2 border-solid border-[#091057] transition-all hover:scale-[1.1] hover:bg-[#091057] rounded-3xl overflow-hidden">
-                <FaCode className='text-white text-2xl md:text-3xl'/>
+                <FaTools className='text-white text-2xl md:text-3xl'/>
                 <p className='text-white text-2xl md:text-3xl font-bold'>Website maintenance</p>
                 <p className='text-sm md:text-lg text-white font-light text-justify'>
                 Our website maintenance services ensure your site remains secure, up-to-date, and fully functional. We provide regular updates, performance optimization, and content management, allowing you to focus on your business. Trust us to enhance your website’s reliability and effectiveness, keeping it aligned with the latest trends and technologies.</p>
