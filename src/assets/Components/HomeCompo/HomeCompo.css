@@ -1,0 +1,11 @@
+.fuhadShiblu_Anim{
+    animation: Anim 1s linear;
+}
+@keyframes Anim{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}

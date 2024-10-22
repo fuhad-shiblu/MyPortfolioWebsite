@@ -3,3 +3,14 @@
     background-repeat: no-repeat;
     background: url(../../../../public/images/contact-bg.jpg);
 }
+.fuhadShiblu_Anim{
+    animation: portDetailsAnim 1s linear;
+}
+@keyframes portDetailsAnim{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}

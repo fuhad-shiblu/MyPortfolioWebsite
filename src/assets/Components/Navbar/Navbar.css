@@ -11,6 +11,3 @@ ul li a:hover::after{
 .fuhadShiblu_hireMe:hover{
     background: linear-gradient(100deg, rgba(76,201,254,1) 0%, rgba(12,26,112,1) 100%);
 }
-.fuhadShiblu_nav{
-    animation: navAnim 1s linear;
-}

@@ -3,3 +3,25 @@
     background-repeat: no-repeat;
     background: url(../../../../public/images/portfolio-bg.jpg);
 }
+.fuhadShiblu_clickAnimPage{
+    animation: clickAnimPage 1s linear;
+}
+@keyframes clickAnimPage{
+    from{
+        top: -500px;
+    }
+    to{
+        top: 50%;
+    }
+}
+.fuhadShiblu_Anim{
+    animation: portDetailsAnim 1s linear;
+}
+@keyframes portDetailsAnim{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}

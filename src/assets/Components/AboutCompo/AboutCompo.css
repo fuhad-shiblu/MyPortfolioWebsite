@@ -3,3 +3,14 @@
     background-repeat: no-repeat;
     background: url(../../../../public/images/about-bg.jpg);
 }
+.fuhadShiblu_Anim{
+    animation: resumeAnim 1s linear;
+}
+@keyframes resumeAnim{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
